@@ -230,6 +230,7 @@ p {
     border-radius: 0px;
     margin-right: 100px;
     margin-left: 100px;
+    align-items: flex-start;
 }
 
 #about-pic img {
