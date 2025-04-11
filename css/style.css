@@ -225,20 +225,12 @@ p {
 }
 
 .about-desc img {
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 0px;
     margin-right: 100px;
     margin-left: 100px;
     align-items: flex-start;
-}
-
-#about-pic img {
-    width: 300px;
-    height: auto;
-    border-radius: 0px;
-    margin-right: 100px;
-    margin-left: 100px;
 }
 
 .desc {
