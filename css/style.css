@@ -255,6 +255,22 @@ svg:hover {
     fill: #af3f0f;
 }
 
+@media only screen and (max-width:1720px) {
+    .about-desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .about-desc {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* Footer */
 footer {
     background-color: #f5ead6;
