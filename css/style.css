@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'TW Cen MT';
-    src: url(TCM_____.TTF);
+    src: url(fonts/TCM_____.TTF);
 }
 
 body {
@@ -111,7 +111,8 @@ header {
 .title {
     display: flex;
     width: 100%;
-    align-items: center;
+    max-width: fit-content;
+    margin-inline: auto;
 }
 
 .title img {
@@ -135,7 +136,7 @@ header {
         margin-inline: auto;
     }
     .title img {
-        width: 70%;
+        width: 100%;
         max-width: fit-content;
         margin-inline: auto;
     }
@@ -269,15 +270,8 @@ svg:hover {
         flex-direction: column;
         align-items: center;
     }
-    .about-desc img {
-    width: 300px;
-    height: auto;
-    border-radius: 0px;
-    margin-right: 100px;
-    margin-left: 100px;
-    align-items: flex-start;
 }
-}
+
 
 /* Footer */
 footer {
