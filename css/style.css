@@ -97,6 +97,7 @@ header {
 }
 
 .logopic img {
+    display: flex;
     width: 500px;
     max-width: fit-content;
     margin-inline: auto;
